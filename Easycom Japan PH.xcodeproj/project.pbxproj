@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF09BFD5297593EA003FC3A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF09BFD4297593EA003FC3A7 /* AppDelegate.swift */; };
+		FF09BFD7297593EA003FC3A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF09BFD6297593EA003FC3A7 /* SceneDelegate.swift */; };
+		FF09BFD9297593EA003FC3A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF09BFD8297593EA003FC3A7 /* ViewController.swift */; };
+		FF09BFDC297593EA003FC3A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF09BFDA297593EA003FC3A7 /* Main.storyboard */; };
+		FF09BFDE297593ED003FC3A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF09BFDD297593ED003FC3A7 /* Assets.xcassets */; };
+		FF09BFE1297593ED003FC3A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF09BFDF297593ED003FC3A7 /* LaunchScreen.storyboard */; };
+		FF09BFEC297593EE003FC3A7 /* Easycom_Japan_PHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF09BFEB297593EE003FC3A7 /* Easycom_Japan_PHTests.swift */; };
+		FF09BFF6297593EE003FC3A7 /* Easycom_Japan_PHUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF09BFF5297593EE003FC3A7 /* Easycom_Japan_PHUITests.swift */; };
+		FF09BFF8297593EE003FC3A7 /* Easycom_Japan_PHUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF09BFF7297593EE003FC3A7 /* Easycom_Japan_PHUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF09BFE8297593EE003FC3A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF09BFC9297593EA003FC3A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF09BFD0297593EA003FC3A7;
+			remoteInfo = "Easycom Japan PH";
+		};
+		FF09BFF2297593EE003FC3A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF09BFC9297593EA003FC3A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF09BFD0297593EA003FC3A7;
+			remoteInfo = "Easycom Japan PH";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF09BFD1297593EA003FC3A7 /* Easycom Japan PH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easycom Japan PH.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF09BFD4297593EA003FC3A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF09BFD6297593EA003FC3A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF09BFD8297593EA003FC3A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF09BFDB297593EA003FC3A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF09BFDD297593ED003FC3A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF09BFE0297593ED003FC3A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF09BFE2297593ED003FC3A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF09BFE7297593EE003FC3A7 /* Easycom Japan PHTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easycom Japan PHTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF09BFEB297593EE003FC3A7 /* Easycom_Japan_PHTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easycom_Japan_PHTests.swift; sourceTree = "<group>"; };
+		FF09BFF1297593EE003FC3A7 /* Easycom Japan PHUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easycom Japan PHUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF09BFF5297593EE003FC3A7 /* Easycom_Japan_PHUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easycom_Japan_PHUITests.swift; sourceTree = "<group>"; };
+		FF09BFF7297593EE003FC3A7 /* Easycom_Japan_PHUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easycom_Japan_PHUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF09BFCE297593EA003FC3A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF09BFE4297593EE003FC3A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF09BFEE297593EE003FC3A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF09BFC8297593EA003FC3A7 = {
+			isa = PBXGroup;
+			children = (
+				FF09BFD3297593EA003FC3A7 /* Easycom Japan PH */,
+				FF09BFEA297593EE003FC3A7 /* Easycom Japan PHTests */,
+				FF09BFF4297593EE003FC3A7 /* Easycom Japan PHUITests */,
+				FF09BFD2297593EA003FC3A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF09BFD2297593EA003FC3A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF09BFD1297593EA003FC3A7 /* Easycom Japan PH.app */,
+				FF09BFE7297593EE003FC3A7 /* Easycom Japan PHTests.xctest */,
+				FF09BFF1297593EE003FC3A7 /* Easycom Japan PHUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF09BFD3297593EA003FC3A7 /* Easycom Japan PH */ = {
+			isa = PBXGroup;
+			children = (
+				FF09BFD4297593EA003FC3A7 /* AppDelegate.swift */,
+				FF09BFD6297593EA003FC3A7 /* SceneDelegate.swift */,
+				FF09BFD8297593EA003FC3A7 /* ViewController.swift */,
+				FF09BFDA297593EA003FC3A7 /* Main.storyboard */,
+				FF09BFDD297593ED003FC3A7 /* Assets.xcassets */,
+				FF09BFDF297593ED003FC3A7 /* LaunchScreen.storyboard */,
+				FF09BFE2297593ED003FC3A7 /* Info.plist */,
+			);
+			path = "Easycom Japan PH";
+			sourceTree = "<group>";
+		};
+		FF09BFEA297593EE003FC3A7 /* Easycom Japan PHTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF09BFEB297593EE003FC3A7 /* Easycom_Japan_PHTests.swift */,
+			);
+			path = "Easycom Japan PHTests";
+			sourceTree = "<group>";
+		};
+		FF09BFF4297593EE003FC3A7 /* Easycom Japan PHUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF09BFF5297593EE003FC3A7 /* Easycom_Japan_PHUITests.swift */,
+				FF09BFF7297593EE003FC3A7 /* Easycom_Japan_PHUITestsLaunchTests.swift */,
+			);
+			path = "Easycom Japan PHUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF09BFD0297593EA003FC3A7 /* Easycom Japan PH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF09BFFB297593EE003FC3A7 /* Build configuration list for PBXNativeTarget "Easycom Japan PH" */;
+			buildPhases = (
+				FF09BFCD297593EA003FC3A7 /* Sources */,
+				FF09BFCE297593EA003FC3A7 /* Frameworks */,
+				FF09BFCF297593EA003FC3A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Easycom Japan PH";
+			productName = "Easycom Japan PH";
+			productReference = FF09BFD1297593EA003FC3A7 /* Easycom Japan PH.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF09BFE6297593EE003FC3A7 /* Easycom Japan PHTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF09BFFE297593EE003FC3A7 /* Build configuration list for PBXNativeTarget "Easycom Japan PHTests" */;
+			buildPhases = (
+				FF09BFE3297593EE003FC3A7 /* Sources */,
+				FF09BFE4297593EE003FC3A7 /* Frameworks */,
+				FF09BFE5297593EE003FC3A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF09BFE9297593EE003FC3A7 /* PBXTargetDependency */,
+			);
+			name = "Easycom Japan PHTests";
+			productName = "Easycom Japan PHTests";
+			productReference = FF09BFE7297593EE003FC3A7 /* Easycom Japan PHTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF09BFF0297593EE003FC3A7 /* Easycom Japan PHUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF09C001297593EE003FC3A7 /* Build configuration list for PBXNativeTarget "Easycom Japan PHUITests" */;
+			buildPhases = (
+				FF09BFED297593EE003FC3A7 /* Sources */,
+				FF09BFEE297593EE003FC3A7 /* Frameworks */,
+				FF09BFEF297593EE003FC3A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF09BFF3297593EE003FC3A7 /* PBXTargetDependency */,
+			);
+			name = "Easycom Japan PHUITests";
+			productName = "Easycom Japan PHUITests";
+			productReference = FF09BFF1297593EE003FC3A7 /* Easycom Japan PHUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF09BFC9297593EA003FC3A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FF09BFD0297593EA003FC3A7 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					FF09BFE6297593EE003FC3A7 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FF09BFD0297593EA003FC3A7;
+					};
+					FF09BFF0297593EE003FC3A7 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FF09BFD0297593EA003FC3A7;
+					};
+				};
+			};
+			buildConfigurationList = FF09BFCC297593EA003FC3A7 /* Build configuration list for PBXProject "Easycom Japan PH" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF09BFC8297593EA003FC3A7;
+			productRefGroup = FF09BFD2297593EA003FC3A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF09BFD0297593EA003FC3A7 /* Easycom Japan PH */,
+				FF09BFE6297593EE003FC3A7 /* Easycom Japan PHTests */,
+				FF09BFF0297593EE003FC3A7 /* Easycom Japan PHUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF09BFCF297593EA003FC3A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF09BFE1297593ED003FC3A7 /* LaunchScreen.storyboard in Resources */,
+				FF09BFDE297593ED003FC3A7 /* Assets.xcassets in Resources */,
+				FF09BFDC297593EA003FC3A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF09BFE5297593EE003FC3A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF09BFEF297593EE003FC3A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF09BFCD297593EA003FC3A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF09BFD9297593EA003FC3A7 /* ViewController.swift in Sources */,
+				FF09BFD5297593EA003FC3A7 /* AppDelegate.swift in Sources */,
+				FF09BFD7297593EA003FC3A7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF09BFE3297593EE003FC3A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF09BFEC297593EE003FC3A7 /* Easycom_Japan_PHTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF09BFED297593EE003FC3A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF09BFF6297593EE003FC3A7 /* Easycom_Japan_PHUITests.swift in Sources */,
+				FF09BFF8297593EE003FC3A7 /* Easycom_Japan_PHUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF09BFE9297593EE003FC3A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF09BFD0297593EA003FC3A7 /* Easycom Japan PH */;
+			targetProxy = FF09BFE8297593EE003FC3A7 /* PBXContainerItemProxy */;
+		};
+		FF09BFF3297593EE003FC3A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF09BFD0297593EA003FC3A7 /* Easycom Japan PH */;
+			targetProxy = FF09BFF2297593EE003FC3A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF09BFDA297593EA003FC3A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF09BFDB297593EA003FC3A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF09BFDF297593ED003FC3A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF09BFE0297593ED003FC3A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF09BFF9297593EE003FC3A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF09BFFA297593EE003FC3A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF09BFFC297593EE003FC3A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3GCFJ6RJM9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Easycom Japan PH/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mzafra.Easycom-Japan-PH";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF09BFFD297593EE003FC3A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3GCFJ6RJM9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Easycom Japan PH/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mzafra.Easycom-Japan-PH";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF09BFFF297593EE003FC3A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3GCFJ6RJM9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mzafra.Easycom-Japan-PHTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Easycom Japan PH.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Easycom Japan PH";
+			};
+			name = Debug;
+		};
+		FF09C000297593EE003FC3A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3GCFJ6RJM9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mzafra.Easycom-Japan-PHTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Easycom Japan PH.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Easycom Japan PH";
+			};
+			name = Release;
+		};
+		FF09C002297593EE003FC3A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3GCFJ6RJM9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mzafra.Easycom-Japan-PHUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Easycom Japan PH";
+			};
+			name = Debug;
+		};
+		FF09C003297593EE003FC3A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3GCFJ6RJM9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mzafra.Easycom-Japan-PHUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Easycom Japan PH";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF09BFCC297593EA003FC3A7 /* Build configuration list for PBXProject "Easycom Japan PH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF09BFF9297593EE003FC3A7 /* Debug */,
+				FF09BFFA297593EE003FC3A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF09BFFB297593EE003FC3A7 /* Build configuration list for PBXNativeTarget "Easycom Japan PH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF09BFFC297593EE003FC3A7 /* Debug */,
+				FF09BFFD297593EE003FC3A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF09BFFE297593EE003FC3A7 /* Build configuration list for PBXNativeTarget "Easycom Japan PHTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF09BFFF297593EE003FC3A7 /* Debug */,
+				FF09C000297593EE003FC3A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF09C001297593EE003FC3A7 /* Build configuration list for PBXNativeTarget "Easycom Japan PHUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF09C002297593EE003FC3A7 /* Debug */,
+				FF09C003297593EE003FC3A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF09BFC9297593EA003FC3A7 /* Project object */;
+}
