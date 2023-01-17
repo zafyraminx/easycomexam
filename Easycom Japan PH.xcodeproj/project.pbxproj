@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		FF09BFD5297593EA003FC3A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF09BFD4297593EA003FC3A7 /* AppDelegate.swift */; };
-		FF09BFD7297593EA003FC3A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF09BFD6297593EA003FC3A7 /* SceneDelegate.swift */; };
 		FF09BFD9297593EA003FC3A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF09BFD8297593EA003FC3A7 /* ViewController.swift */; };
 		FF09BFDC297593EA003FC3A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF09BFDA297593EA003FC3A7 /* Main.storyboard */; };
 		FF09BFDE297593ED003FC3A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF09BFDD297593ED003FC3A7 /* Assets.xcassets */; };
@@ -16,6 +15,13 @@
 		FF09BFEC297593EE003FC3A7 /* Easycom_Japan_PHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF09BFEB297593EE003FC3A7 /* Easycom_Japan_PHTests.swift */; };
 		FF09BFF6297593EE003FC3A7 /* Easycom_Japan_PHUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF09BFF5297593EE003FC3A7 /* Easycom_Japan_PHUITests.swift */; };
 		FF09BFF8297593EE003FC3A7 /* Easycom_Japan_PHUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF09BFF7297593EE003FC3A7 /* Easycom_Japan_PHUITestsLaunchTests.swift */; };
+		FFEEE0442976745C0024B1D4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEEE0432976745C0024B1D4 /* Extensions.swift */; };
+		FFEEE0462976748C0024B1D4 /* PillLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEEE0452976748C0024B1D4 /* PillLabel.swift */; };
+		FFEEE0492976A6380024B1D4 /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = FFEEE0482976A6380024B1D4 /* JGProgressHUD */; };
+		FFF4BE1F29759D260013CE2C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF4BE1E29759D260013CE2C /* DetailViewController.swift */; };
+		FFF4BE2229759D810013CE2C /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF4BE2129759D810013CE2C /* Entry.swift */; };
+		FFF4BE2429759E7D0013CE2C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF4BE2329759E7D0013CE2C /* Constants.swift */; };
+		FFF4BE64297644A20013CE2C /* EntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF4BE63297644A20013CE2C /* EntryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,6 @@
 /* Begin PBXFileReference section */
 		FF09BFD1297593EA003FC3A7 /* Easycom Japan PH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easycom Japan PH.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF09BFD4297593EA003FC3A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF09BFD6297593EA003FC3A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FF09BFD8297593EA003FC3A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF09BFDB297593EA003FC3A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF09BFDD297593ED003FC3A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +54,12 @@
 		FF09BFF1297593EE003FC3A7 /* Easycom Japan PHUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easycom Japan PHUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF09BFF5297593EE003FC3A7 /* Easycom_Japan_PHUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easycom_Japan_PHUITests.swift; sourceTree = "<group>"; };
 		FF09BFF7297593EE003FC3A7 /* Easycom_Japan_PHUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easycom_Japan_PHUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FFEEE0432976745C0024B1D4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FFEEE0452976748C0024B1D4 /* PillLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillLabel.swift; sourceTree = "<group>"; };
+		FFF4BE1E29759D260013CE2C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FFF4BE2129759D810013CE2C /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		FFF4BE2329759E7D0013CE2C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FFF4BE63297644A20013CE2C /* EntryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFEEE0492976A6380024B1D4 /* JGProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,13 +111,15 @@
 		FF09BFD3297593EA003FC3A7 /* Easycom Japan PH */ = {
 			isa = PBXGroup;
 			children = (
+				FFF4BE2329759E7D0013CE2C /* Constants.swift */,
+				FFF4BE2029759D520013CE2C /* Models */,
+				FF09C00529759412003FC3A7 /* Views */,
+				FF09C00429759402003FC3A7 /* Controllers */,
 				FF09BFD4297593EA003FC3A7 /* AppDelegate.swift */,
-				FF09BFD6297593EA003FC3A7 /* SceneDelegate.swift */,
-				FF09BFD8297593EA003FC3A7 /* ViewController.swift */,
-				FF09BFDA297593EA003FC3A7 /* Main.storyboard */,
 				FF09BFDD297593ED003FC3A7 /* Assets.xcassets */,
 				FF09BFDF297593ED003FC3A7 /* LaunchScreen.storyboard */,
 				FF09BFE2297593ED003FC3A7 /* Info.plist */,
+				FFEEE0432976745C0024B1D4 /* Extensions.swift */,
 			);
 			path = "Easycom Japan PH";
 			sourceTree = "<group>";
@@ -127,6 +141,33 @@
 			path = "Easycom Japan PHUITests";
 			sourceTree = "<group>";
 		};
+		FF09C00429759402003FC3A7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FF09BFD8297593EA003FC3A7 /* ViewController.swift */,
+				FFF4BE1E29759D260013CE2C /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FF09C00529759412003FC3A7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF09BFDA297593EA003FC3A7 /* Main.storyboard */,
+				FFF4BE63297644A20013CE2C /* EntryCell.swift */,
+				FFEEE0452976748C0024B1D4 /* PillLabel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FFF4BE2029759D520013CE2C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FFF4BE2129759D810013CE2C /* Entry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +184,9 @@
 			dependencies = (
 			);
 			name = "Easycom Japan PH";
+			packageProductDependencies = (
+				FFEEE0482976A6380024B1D4 /* JGProgressHUD */,
+			);
 			productName = "Easycom Japan PH";
 			productReference = FF09BFD1297593EA003FC3A7 /* Easycom Japan PH.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +259,9 @@
 				Base,
 			);
 			mainGroup = FF09BFC8297593EA003FC3A7;
+			packageReferences = (
+				FFEEE0472976A6380024B1D4 /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
+			);
 			productRefGroup = FF09BFD2297593EA003FC3A7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +305,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFF4BE2229759D810013CE2C /* Entry.swift in Sources */,
 				FF09BFD9297593EA003FC3A7 /* ViewController.swift in Sources */,
 				FF09BFD5297593EA003FC3A7 /* AppDelegate.swift in Sources */,
-				FF09BFD7297593EA003FC3A7 /* SceneDelegate.swift in Sources */,
+				FFEEE0462976748C0024B1D4 /* PillLabel.swift in Sources */,
+				FFF4BE1F29759D260013CE2C /* DetailViewController.swift in Sources */,
+				FFF4BE64297644A20013CE2C /* EntryCell.swift in Sources */,
+				FFF4BE2429759E7D0013CE2C /* Constants.swift in Sources */,
+				FFEEE0442976745C0024B1D4 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +497,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +526,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -602,6 +656,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FFEEE0472976A6380024B1D4 /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FFEEE0482976A6380024B1D4 /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FFEEE0472976A6380024B1D4 /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FF09BFC9297593EA003FC3A7 /* Project object */;
 }
